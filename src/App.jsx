@@ -169,30 +169,53 @@ import { BrowserRouter, Link, NavLink, Route, Routes } from "react-router-dom";
 
 // export default App;
 
-import React from "react";
-import Service from "./components/Bai2/Service";
-import Portfolia from "./components/Bai2/Portfolia";
-import About from "./components/Bai2/About";
-import Team from "./components/Bai2/Team";
-import Contact from "./components/Bai2/Contact";
-import Home from "./components/Bai2/Home";
+// import React from "react";
+// import Service from "./components/Bai2/Service";
+// import Portfolia from "./components/Bai2/Portfolia";
+// import About from "./components/Bai2/About";
+// import Team from "./components/Bai2/Team";
+// import Contact from "./components/Bai2/Contact";
+// import Home from "./components/Bai2/Home";
+
+// function App() {
+//   return (
+//     <div>
+      
+//       <Routes>
+//       <Route path="/" element={<Home/>}>
+//         <Route index element={<Service />}></Route>
+//         <Route path="/portfolia" element={<Portfolia />}></Route>
+//         <Route path="/about" element={<About />}></Route>
+//         <Route path="/team" element={<Team />}></Route>
+//         <Route path="/contact" element={<Contact />}></Route>
+//         </Route>
+//       </Routes>
+      
+//     </div>
+//   );
+// }
+
+// export default App;
+//  import React from 'react'
+// import Index from "./components/Bai2/Index";
+ 
+//  function App() {
+//    return (
+//      <div>
+//       <Index/>
+//      </div>
+//    )
+//  }
+ 
+import React from 'react'
+import Index from "./components/Bai4/Index";
 
 function App() {
   return (
     <div>
-      
-      <Routes>
-      <Route path="/" element={<Home/>}>
-        <Route index element={<Service />}></Route>
-        <Route path="/portfolia" element={<Portfolia />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/team" element={<Team />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        </Route>
-      </Routes>
-      
+      <Index/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
